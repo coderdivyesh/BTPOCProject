@@ -1,0 +1,468 @@
+{
+    "_id" : NumberLong(6234638934401979016),
+    "Name" : "NOTIFICATION-BT__Switch_10.57.9.137-/shelf=1/slot=1-15546_SESR_20threshold_20exceeded",
+    "OpenedAt" : 1451614996,
+    "Source" : "SecondaryTLS_Default",
+    "ClassName" : "BT_Switch",
+    "InstanceName" : "10.57.9.137-/shelf=1/slot=1-15546",
+    "EventName" : "SESR threshold exceeded",
+    "ClassDisplayName" : "BT_Switch",
+    "InstanceDisplayName" : "10.57.9.137-/shelf=1/slot=1-15546",
+    "EventDisplayName" : "SESR threshold exceeded",
+    "ElementClassName" : "BT_Switch",
+    "ElementName" : 20442222,
+    "SourceDomainName" : "B-MTCR-APM5-TA-01",
+    "SourceEventType" : "UNKNOWN",
+    "Active" : 0,
+    "ClosedAt" : 1451614999,
+    "Duration" : 3,
+    "LastChangedAt" : 1451618599,
+    "IsRoot" : 1,
+    "IsProblem" : 0,
+    "Acknowledged" : 1,
+    "EventType" : "DURABLE",
+    "Category" : 1,
+    "EventText" : "Probable Cause = Performance degraded - G.826 severely errored seconds ratio exceeded.. SESR threshold exceeded on /240 - New Time Server Req'd - BIC/20442222/RAD11612 to WDD - LINK1/RAC1. Source Device Type = unity_rac.",
+    "Severity" : 2,
+    "Impact" : 0,
+    "Certainty" : 100,
+    "InMaintenance" : 0,
+    "TroubleTicketID" : 1,
+    "Owner" : "SYSTEM",
+    "UserDefined1" : "YIACF",
+    "UserDefined2" : "21CN-RADIO",
+    "UserDefined3" : "AVN|AVN Eclipse Node|STD|",
+    "UserDefined4" : 1,
+    "UserDefined5" : 1,
+    "UserDefined6" : 20442222,
+    "UserDefined7" : "LIS",
+    "UserDefined8" : "AVN",
+    "UserDefined9" : 1,
+    "UserDefined10" : "0/0",
+    "FirstNotifiedAt" : 1451614996,
+    "OccurrenceCount" : 1,
+    "FirstTimeToAcknowledged" : 1451618599,
+    "AcknowledgedFirstUser" : "SYSTEM",
+    "FirstTimeToOwner" : 1,
+    "OwnerFirstUser" : 1,
+    "FirstTimeToTroubleTicketID" : 1,
+    "TroubleTicketIDFirstUser" : 1,
+    "TroubleTicketIDFirstValue" : 1,
+    "IsRootFirstValue" : 1
+}
+
+
+------------------------
+userreport
+
+{
+    "_id" : ObjectId("576cd8421da97c185ba282ea"),
+    "username" : "test12",
+    "parentid" : null,
+    "id" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+    "label" : "UserReports",
+    "filterExpression" : null,
+    "node" : {
+        "parentid" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+        "id" : "b4567901-48a3-7b12-b5dc-1ff4c7b2f737",
+        "label" : "MY-DEFAULT-REPORT",
+        "filterExpression" : null,
+        "pagesize" : 25,
+        "duration" : "3month",
+        "nodelevel" : "0",
+        "columns" : [ 
+            {
+                "label" : "NAME",
+                "name" : "name",
+                "dbname" : "Name",
+                "datatype" : null,
+                "friendlyname" : null
+            }, 
+            {
+                "label" : "OPENEDAT",
+                "name" : "openedat",
+                "dbname" : "OpenedAt",
+                "datatype" : null,
+                "friendlyname" : null
+            }, 
+            {
+                "label" : "EVENT_DISPLAY_NAME",
+                "name" : "eventdisplayname",
+                "dbname" : "EventDisplayName",
+                "datatype" : null,
+                "friendlyname" : null
+            }
+        ],
+        "nodes" : []
+    },
+    "nodes" : [ 
+        {
+            "parentid" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+            "id" : "1c8b7278-5563-03d4-4213-77bc5c24d449",
+            "label" : "TEST-ARPAN",
+            "filterExpression" : "EventType=DURABLE",
+            "pagesize" : 10,
+            "duration" : "4month",
+            "nodelevel" : "4",
+            "columns" : [ 
+                {
+                    "label" : "NAME",
+                    "name" : "name",
+                    "dbname" : "Name",
+                    "datatype" : null,
+                    "friendlyname" : null
+                }, 
+                {
+                    "label" : "OPENEDAT",
+                    "name" : "openedat",
+                    "dbname" : "OpenedAt",
+                    "datatype" : null,
+                    "friendlyname" : null
+                }, 
+                {
+                    "label" : "EVENT_DISPLAY_NAME",
+                    "name" : "eventdisplayname",
+                    "dbname" : "EventDisplayName",
+                    "datatype" : null,
+                    "friendlyname" : null
+                }
+            ],
+            "nodes" : [ 
+                {
+                    "parentid" : "1c8b7278-5563-03d4-4213-77bc5c24d449",
+                    "id" : "3bba08a7-e897-2b99-795c-f04d4c1dac54",
+                    "label" : "TEST-ARPAN-C1",
+                    "filterExpression" : "Source=RPE21C3#AND#ElementClassName=BT_MSAN",
+                    "pagesize" : 10,
+                    "duration" : "4month",
+                    "nodelevel" : "4.1",
+                    "columns" : [ 
+                        {
+                            "label" : "NAME",
+                            "name" : "name",
+                            "dbname" : "Name",
+                            "datatype" : null,
+                            "friendlyname" : null
+                        }, 
+                        {
+                            "label" : "OPENEDAT",
+                            "name" : "openedat",
+                            "dbname" : "OpenedAt",
+                            "datatype" : null,
+                            "friendlyname" : null
+                        }, 
+                        {
+                            "label" : "EVENT_DISPLAY_NAME",
+                            "name" : "eventdisplayname",
+                            "dbname" : "EventDisplayName",
+                            "datatype" : null,
+                            "friendlyname" : null
+                        }
+                    ],
+                    "nodes" : [ 
+                        {
+                            "parentid" : "3bba08a7-e897-2b99-795c-f04d4c1dac54",
+                            "id" : "33ad35fc-1b33-35cc-2fa0-dc9c855d2929",
+                            "label" : "TEST-ARPAN-C1-C1",
+                            "filterExpression" : "Severity=2#AND#ElementName=996120#AND#EventType=DURABLE#AND#SourceEventType=EVENT",
+                            "pagesize" : 10,
+                            "duration" : "3month",
+                            "nodelevel" : "4.1.1",
+                            "columns" : [ 
+                                {
+                                    "label" : "SOURCE",
+                                    "name" : "source",
+                                    "dbname" : "Source",
+                                    "datatype" : null,
+                                    "friendlyname" : null
+                                }, 
+                                {
+                                    "label" : "ELEMENT_NAME",
+                                    "name" : "elementname",
+                                    "dbname" : "ElementName",
+                                    "datatype" : null,
+                                    "friendlyname" : null
+                                }, 
+                                {
+                                    "label" : "SEVERITY",
+                                    "name" : "severity",
+                                    "dbname" : "",
+                                    "datatype" : null,
+                                    "friendlyname" : null
+                                }
+                            ],
+                            "nodes" : [ 
+                                {
+                                    "parentid" : "33ad35fc-1b33-35cc-2fa0-dc9c855d2929",
+                                    "id" : "81d409f5-61ad-a2c6-960d-8e7dd5d68ea0",
+                                    "label" : "New Report",
+                                    "filterExpression" : null,
+                                    "pagesize" : 10,
+                                    "duration" : "4month",
+                                    "nodelevel" : "4.1.1.1",
+                                    "columns" : [ 
+                                        {
+                                            "label" : "NAME",
+                                            "name" : "name",
+                                            "dbname" : "Name",
+                                            "datatype" : null,
+                                            "friendlyname" : null
+                                        }, 
+                                        {
+                                            "label" : "EVENT_DISPLAY_NAME",
+                                            "name" : "eventdisplayname",
+                                            "dbname" : "EventDisplayName",
+                                            "datatype" : null,
+                                            "friendlyname" : null
+                                        }, 
+                                        {
+                                            "label" : "CLASS_DISPLAY_NAME",
+                                            "name" : "classdisplayname",
+                                            "dbname" : "ClassDisplayName",
+                                            "datatype" : null,
+                                            "friendlyname" : null
+                                        }, 
+                                        {
+                                            "label" : "CLASSNAME",
+                                            "name" : "classname",
+                                            "dbname" : "ClassName",
+                                            "datatype" : null,
+                                            "friendlyname" : null
+                                        }, 
+                                        {
+                                            "label" : "EVENT_NAME",
+                                            "name" : "eventname",
+                                            "dbname" : "Eventname",
+                                            "datatype" : null,
+                                            "friendlyname" : null
+                                        }
+                                    ],
+                                    "nodes" : [ 
+                                        {
+                                            "parentid" : "81d409f5-61ad-a2c6-960d-8e7dd5d68ea0",
+                                            "id" : "8b7f1901-300a-4982-b75f-881743cd39e7",
+                                            "label" : "New Report",
+                                            "filterExpression" : null,
+                                            "pagesize" : 10,
+                                            "duration" : "4month",
+                                            "nodelevel" : "4.1.1.1.1",
+                                            "columns" : [ 
+                                                {
+                                                    "label" : "NAME",
+                                                    "name" : "name",
+                                                    "dbname" : "Name",
+                                                    "datatype" : null,
+                                                    "friendlyname" : null
+                                                }, 
+                                                {
+                                                    "label" : "EVENT_DISPLAY_NAME",
+                                                    "name" : "eventdisplayname",
+                                                    "dbname" : "EventDisplayName",
+                                                    "datatype" : null,
+                                                    "friendlyname" : null
+                                                }, 
+                                                {
+                                                    "label" : "CLASS_DISPLAY_NAME",
+                                                    "name" : "classdisplayname",
+                                                    "dbname" : "ClassDisplayName",
+                                                    "datatype" : null,
+                                                    "friendlyname" : null
+                                                }, 
+                                                {
+                                                    "label" : "CLASSNAME",
+                                                    "name" : "classname",
+                                                    "dbname" : "ClassName",
+                                                    "datatype" : null,
+                                                    "friendlyname" : null
+                                                }, 
+                                                {
+                                                    "label" : "EVENT_NAME",
+                                                    "name" : "eventname",
+                                                    "dbname" : "Eventname",
+                                                    "datatype" : null,
+                                                    "friendlyname" : null
+                                                }
+                                            ],
+                                            "nodes" : []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "parentid" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+            "id" : "7cd9ba09-ec7f-373f-3aaa-7db90bc3cdb1",
+            "label" : "New Report",
+            "filterExpression" : null,
+            "pagesize" : 10,
+            "duration" : "4month",
+            "nodelevel" : "4",
+            "columns" : [],
+            "nodes" : [ 
+                {
+                    "parentid" : "7cd9ba09-ec7f-373f-3aaa-7db90bc3cdb1",
+                    "id" : "c75448db-17db-ae92-179d-0291e3c92e3d",
+                    "label" : "New Report",
+                    "filterExpression" : null,
+                    "pagesize" : 10,
+                    "duration" : "4month",
+                    "nodelevel" : "4.2",
+                    "columns" : [],
+                    "nodes" : []
+                }
+            ]
+        }
+    ]
+}
+-------------------------
+Global Report
+
+{
+    "_id" : ObjectId("57591c43e297388ba5ef45db"),
+    "parentid" : null,
+    "id" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+    "label" : "GlobalReport-X",
+    "filterExpression" : null,
+    "nodelevel" : "0",
+    "node" : {
+        "parentid" : "null",
+        "id" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+        "label" : "",
+        "filterExpression" : null,
+        "pagesize" : 25,
+        "duration" : "3month",
+        "nodelevel" : "0",
+        "columns" : [ 
+            {
+                "label" : "NAME",
+                "name" : "name",
+                "dbname" : "Name"
+            }, 
+            {
+                "label" : "OPENEDAT",
+                "name" : "openedat",
+                "dbname" : "OpenedAt"
+            }, 
+            {
+                "label" : "EVENT_DISPLAY_NAME",
+                "name" : "eventdisplayname",
+                "dbname" : "EventDisplayName"
+            }
+        ],
+        "nodes" : []
+    },
+    "nodes" : [ 
+        {
+            "parentid" : "defa4aec-3091-13e5-b716-a7d0bf212c75",
+            "id" : "0692684e-a025-3696-e76a-a0c8ceaac160",
+            "label" : "GlobalReport-1",
+            "filterExpression" : "abc",
+            "nodelevel" : "1",
+            "node" : null,
+            "nodes" : [ 
+                {
+                    "parentid" : "0692684e-a025-3696-e76a-a0c8ceaac160",
+                    "id" : "36bc9d58-7d8b-0fcc-5914-c9cd81c5603f",
+                    "label" : "GlobalReport-1-child1",
+                    "filterExpression" : null,
+                    "nodelevel" : "1.1",
+                    "node" : null,
+                    "nodes" : [ 
+                        {
+                            "parentid" : "36bc9d58-7d8b-0fcc-5914-c9cd81c5603f",
+                            "id" : "ad2f0468-badf-cffe-f539-257659ecb671",
+                            "label" : "GlobalReport-1-child1-child1",
+                            "filterExpression" : null,
+                            "nodelevel" : "1.1.1",
+                            "node" : null,
+                            "nodes" : []
+                        }, 
+                        {
+                            "parentid" : "36bc9d58-7d8b-0fcc-5914-c9cd81c5603f",
+                            "id" : "3b9cb765-1654-f414-b53f-f4d4e53357ea",
+                            "label" : "GlobalReport-1-child1-child2",
+                            "filterExpression" : null,
+                            "nodelevel" : "1.1.2",
+                            "node" : null,
+                            "nodes" : []
+                        }
+                    ]
+                }, 
+                {
+                    "parentid" : "0692684e-a025-3696-e76a-a0c8ceaac160",
+                    "id" : "53fg7f47-3h7f-2gdd-5842-c7wf37v3126h",
+                    "label" : "GlobalReport-1-child2",
+                    "filterExpression" : null,
+                    "pagesize" : 0,
+                    "duration" : null,
+                    "nodelevel" : "1.2",
+                    "node" : null,
+                    "nodes" : []
+                }, 
+                {
+                    "parentid" : "0692684e-a025-3696-e76a-a0c8ceaac160",
+                    "id" : "45nf6j56-3j6j-8edgk-4521-j5aw41u1584j",
+                    "label" : "GlobalReport-2",
+                    "filterExpression" : "a+b",
+                    "pagesize" : 0,
+                    "duration" : null,
+                    "nodelevel" : "1.3",
+                    "node" : null,
+                    "nodes" : []
+                }, 
+                {
+                    "parentid" : "0692684e-a025-3696-e76a-a0c8ceaac160",
+                    "id" : "e4127376-3529-4169-a6ab-92e7dee61b26",
+                    "label" : "divyesh",
+                    "filterExpression" : null,
+                    "pagesize" : 10,
+                    "duration" : "4month",
+                    "nodelevel" : "1.4",
+                    "columns" : [],
+                    "nodes" : []
+                }
+            ]
+        }
+    ]
+}
+
+---------------------
+USER
+
+{
+    "_id" : ObjectId("575526fed7015aa638858a90"),
+    "username" : "admin",
+    "password" : "YWRtaW4=",
+    "firstname" : "Nidhi",
+    "lastname" : "Joshi",
+    "email" : "nidhi.joshi@bt.com",
+    "enabled" : null,
+    "lastPasswordResetDate" : null,
+    "authorities" : [ 
+        {
+            "id" : null,
+            "name" : "ROLE_ADMIN"
+        }
+    ]
+}
+
+--------------
+activeuser
+
+{
+    "_id" : ObjectId("57613cc42e3eb21ec8c579df"),
+    "tokenId" : "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI1ZjNjNThiYy05MWZmLTRjODgtOWZjYi1hNzMwMjM3MjYxMzciLCJzdWIiOiJ0ZXN0MTIiLCJpYXQiOjE0NjcxMjE2MjYsImV4cCI6MTQ2NzIyMTYyNn0.7g58FOMZEjTqQDrAvBSA2H1nJba5JbIlGAc4CbTGWqAhIPTKpIi1ct0owXwh9ni2vBrWx4COpTey5bv00MfTpA",
+    "username" : "test12",
+    "email" : null
+}
+
+
+
+
+
+
+
